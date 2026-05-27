@@ -1,0 +1,25 @@
+:root {
+  --player-height: 90px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+/* REMOVE EXTRA SPACE WHEN PLAYER IS ACTIVE */
+body.player-open {
+  padding-bottom: 0;
+}
