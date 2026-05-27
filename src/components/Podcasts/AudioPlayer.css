@@ -1,0 +1,106 @@
+:root {
+  --accent: #1db954;
+}
+
+/* =========================
+   PLAYER BASE
+========================= */
+.audio-player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  background: #ffffff;
+  color: #111;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  padding: 8px 12px;
+
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.08);
+  border-top: 1px solid #eee;
+
+  z-index: 1000;
+  overflow: hidden;
+
+  transition: all 0.3s ease;
+}
+
+/* DARK MODE */
+body.dark-mode .audio-player {
+  background: #1e1e1e;
+  color: #fff;
+  border-top: 1px solid #333;
+}
+
+/* MINI */
+.audio-player.mini {
+  height: 80px;
+}
+
+/* EXPANDED (FULL SCREEN STYLE) */
+.audio-player.expanded {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 30px;
+}
+
+/* TITLE */
+.audio-player h3 {
+  margin: 0;
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* PROGRESS */
+.audio-player input[type="range"] {
+  width: 100%;
+  height: 3px;
+  accent-color: var(--accent);
+}
+
+/* TIME */
+.audio-player .time {
+  font-size: 11px;
+  display: flex;
+  justify-content: space-between;
+  color: #666;
+}
+
+/* CONTROLS */
+.audio-player .controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* BUTTONS */
+.audio-player button {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.audio-player button:hover {
+  color: var(--accent);
+}
+
+/* EXTRAS */
+.audio-player .extras {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
