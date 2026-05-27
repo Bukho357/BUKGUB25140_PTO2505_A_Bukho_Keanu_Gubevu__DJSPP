@@ -78,6 +78,7 @@
 
 - React
 - JavaScript (ES6+)
+- Html & Css
 - LocalStorage API
 - Vercel (deployment)
 
