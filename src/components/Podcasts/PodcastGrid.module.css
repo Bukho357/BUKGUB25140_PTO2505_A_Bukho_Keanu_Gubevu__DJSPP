@@ -1,0 +1,24 @@
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  padding: 1rem;
+}
+
+.noResults {
+  padding: 2rem;
+  text-align: center;
+  font-style: italic;
+  color: #474747;
+}
+
+/* DARK MODE */
+:global(body.dark-mode) .noResults {
+  color: rgb(247, 247, 247);
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
