@@ -67,6 +67,7 @@
 ## 🚀 Deployment
 
 - Deploy your app to **Vercel** using a **custom domain or URL**
+- bukgub-25140-pto-2505-a-bukho-keanu.vercel.app
 - Add a **custom favicon** for easy identification in browser tabs - Use tools like [metatags.io](https://metatags.io) to set **rich social media preview metadata**
 - Ensure that direct access to dynamic routes (e.g. /show/1) works correctly (SPA routing fallback)
 
