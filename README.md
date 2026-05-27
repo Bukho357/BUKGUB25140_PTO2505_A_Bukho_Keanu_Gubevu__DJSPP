@@ -68,12 +68,15 @@
 
 - Deploy your app to **Vercel** using a **custom domain or URL**
 - (https://bukgub-25140-pto-2505-a-bukho-keanu.vercel.app/)
-- Add a **custom favicon** for easy identification in browser tabs - Use tools like [metatags.io](https://metatags.io) to set **rich social media preview metadata**
+- Added a **custom favicon** for easy identification in browser tabs
+- Use tools like [metatags.io](https://metatags.io) to set **rich social media preview metadata**
 - Ensure that direct access to dynamic routes (e.g. /show/1) works correctly (SPA routing fallback)
 
 ## ✅ Deliverables
 
-- A fully functional and deployed podcast app - Source code in **GitHub** with clear commit history - Live demo link (**Vercel**) - (Optional) Short demo video
+- A fully functional and deployed podcast app
+- Source code in **GitHub** with clear commit history
+- Live link (**Vercel**)
 
 ## 🧑‍💻 Tech Stack
 
